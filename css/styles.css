@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   color: #8f8f8f;
 }
@@ -76,14 +80,13 @@ p {
 
 /* Title Image */
 .title-image {
-
   width: 60%;
-  height:100%;
+  height: 100%;
   position: absolute;
   right: 30%;
 }
 
-/* Features Section */
+/* login Section */
 #features {
   position: relative;
 }
@@ -139,7 +142,6 @@ p {
 .form-label-group {
   position: relative;
   margin-bottom: 1rem;
-
 }
 
 .form-label-group input {
@@ -147,16 +149,42 @@ p {
   border-radius: 0.5rem;
 }
 
-
-
 .btn-google {
   color: white;
   background-color: #ea4335;
+  margin-bottom: 10px;
 }
 
 .btn-facebook {
   color: white;
   background-color: #3b5998;
+}
+
+/* details */
+.pro-image {
+  width: 100%;
+}
+ul{
+  list-style-type: none;
+  text-align:left;
+
+}
+.modal-content{
+  background-color:#08d9d6;
+}
+.btn1 {
+  background-color: blue;
+
+  border-radius: 5%;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 /* Footer Section */
